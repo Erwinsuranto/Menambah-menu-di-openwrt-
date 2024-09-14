@@ -1,4 +1,5 @@
-# Menambah-menu-di-openwrt-
+# Menambah-menu-di-openwrt
+STEP PERTAMA
 1. Open File Manager usr/share/ucode/luci/template/themes/material/ Open File header.ut
  Atau klik link ini untuk menuju File http://192.168.1.1/tinyfm/tinyfm.php?p=usr%2Fshare%2Fucode%2Fluci%2Ftemplate%2Fthemes%2Fmaterial&view=header.ut
 2. Sebelum di edit sebaiknya di backup dulu File original nya
@@ -33,8 +34,47 @@
   </ul>
 </nav>
 ```
-
-
+Hasilnya Seperti Gambar Di Bawah Ini
 <h1 align="center">
   <img src="https://raw.githubusercontent.com/Erwinsuranto/Menambah-menu-di-openwrt-/main/IMG-20240914-WA0015.jpg" alt="neko" width="500">
 </h1>
+
+STEP KEDUA
+1. Copy File di bawah ini, paste di bawa code <style>
+```
+#menu ul.sub-menus {
+    height: auto;
+    overflow: hidden;
+    width: 150px;
+    background: #f2f2f2;
+    position: absolute;
+    z-index: 99;
+    display: none;
+    padding: 0;
+    list-style: none;
+}
+
+#menu ul.sub-menus li {
+    display: block;
+    width: 100%;
+}
+
+#menu ul.sub-menus a {
+    display: block;
+    padding: 10px;
+    color: #002b49;
+    background: #f2f2f2;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+#menu ul.sub-menus a:hover {
+    background: #31b1e7;
+    color: #fff;
+}
+
+#menu li:hover ul.sub-menus {
+    display: block;
+}
+```
+Hasilnya Seperti Gambar Di Bawah Ini
