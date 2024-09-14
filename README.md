@@ -1,1 +1,35 @@
 # Menambah-menu-di-openwrt-
+1. Open File Manager usr/share/ucode/luci/template/themes/material/ Open File header.ut
+ Atau klik link ini untuk menuju File http://192.168.1.1/tinyfm/tinyfm.php?p=usr%2Fshare%2Fucode%2Fluci%2Ftemplate%2Fthemes%2Fmaterial&view=header.ut
+2. Sebelum di edit sebaiknya di backup dulu File original nya
+3. Copy File di bawa ini, paste di bawah bawa code </script>
+```
+<nav id='menu'>
+  <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+  <ul>
+    <li><a href='http://192.168.8.1/' target='_blank'>Modem</a></li>    
+    <li><a href='/cgi-bin/luci/admin/services/ttyd'>Terminal</a></li>
+	<li><a id="yacd" target='_blank'><p>Yacd</p></a></li>
+	<li><a href='https://www.youtube.com/c/IndonesianTechChannel/videos' target='_blank'>Youtube</a></li>
+	<li><a href='/cgi-bin/luci/admin/status/about'>About</a></li>
+	<script type="text/javascript">document.getElementById("yacd").setAttribute("href", "http://" + window.location.hostname + ":9090/ui/yacd/",);</script>
+    <!-- Dropdown untuk AP -->
+    <li><a href='#' class="dropdown-arrow">AP</a>
+      <ul class="sub-menus">
+        <li><a href='http://192.168.1.2' target='_blank'>AP 1</a></li>
+        <li><a href='http://192.168.1.3' target='_blank'>AP 2</a></li>
+      </ul>
+    </li>
+
+    <!-- Dropdown untuk WAN -->
+    <li><a href='#' class="dropdown-arrow">Link</a>
+      <ul class="sub-menus">
+        <li><a href='https://www.speedtest.net/id' target='_blank'>Speedtest</a></li>
+        <li><a href='https://my.kmsp-store.com/login' target='_blank'>Kmsp Store</a></li>
+        <li><a href='https://d3ward.github.io/toolz/adblock' target='_blank'>D3ward</a></li>
+        <li><a href='https://browserleaks.com/dns' target='_blank'>DNS Leak</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+```
