@@ -33,7 +33,8 @@
   </ul>
 </nav>
 ```
-<h1 align="center">
-  <img src="[https://raw.githubusercontent.com/nosignals/neko/main/img/neko.png](https://raw.githubusercontent.com/Erwinsuranto/Menambah-menu-di-openwrt-/main/IMG-20240914-WA0015.jpg)" alt="neko" width="1000">
-</h1>
 
+
+<h1 align="center">
+  <img src="https://raw.githubusercontent.com/Erwinsuranto/Menambah-menu-di-openwrt-/main/IMG-20240914-WA0015.jpg" alt="neko" width="500">
+</h1>
