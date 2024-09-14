@@ -78,3 +78,7 @@ STEP KEDUA
 }
 ```
 Hasilnya Seperti Gambar Di Bawah Ini
+
+<h1 align="center">
+  <img src="https://raw.githubusercontent.com/Erwinsuranto/Menambah-menu-di-openwrt-/main/IMG-20240915-WA0000.jpg" alt="neko" width="500">
+</h1>
