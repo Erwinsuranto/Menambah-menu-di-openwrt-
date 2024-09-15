@@ -1,7 +1,7 @@
 # Menambah-menu-di-openwrt
 STEP PERTAMA
 1. Open File Manager usr/share/ucode/luci/template/themes/material/ Open File header.ut
- Atau klik link ini untuk menuju File http://192.168.1.1/tinyfm/tinyfm.php?p=usr%2Fshare%2Fucode%2Fluci%2Ftemplate%2Fthemes%2Fmaterial&view=header.ut
+ Atau klik link ini untuk menuju File http://192.168.1.1/tinyfm/tinyfm.php?p=usr%2Fshare%2Fucode%2Fluci%2Ftemplate%2Fthemes%2Fmaterial
 2. Sebelum di edit sebaiknya di backup dulu File original nya
 3. Copy File di bawa ini, paste di bawah bawa code </script>
 ```
