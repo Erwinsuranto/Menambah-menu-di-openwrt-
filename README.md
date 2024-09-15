@@ -63,7 +63,7 @@ STEP KEDUA
     display: block;
     padding: 10px;
     color: #002b49;
-    background: #f2f2f2;
+    background: #aab2be;
     text-decoration: none;
     font-size: 12px;
 }
