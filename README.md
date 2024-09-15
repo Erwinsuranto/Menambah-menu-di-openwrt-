@@ -39,7 +39,7 @@ Hasilnya Seperti Gambar Di Bawah Ini
   <img src="https://raw.githubusercontent.com/Erwinsuranto/Menambah-menu-di-openwrt-/main/IMG-20240914-WA0015.jpg" alt="neko" width="500">
 </h1>
 
-STEP KEDUA
+STEP KEDUA SCRIPT CSS
 1. Copy File di bawah ini, paste di bawa code <style>
 ```
 #menu ul.sub-menus {
