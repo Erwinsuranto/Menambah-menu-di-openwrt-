@@ -26,7 +26,7 @@ STEP PERTAMA
     <li><a href='#' class="dropdown-arrow">Link</a>
       <ul class="sub-menus">
         <li><a href='https://www.speedtest.net/id' target='_blank'>Speedtest</a></li>
-        <li><a href='https://my.kmsp-store.com/login' target='_blank'>Kmsp Store</a></li>
+        <li><a href='https://www.speedtest.net/id' target='_blank'>Kmsp Store</a></li>
         <li><a href='https://d3ward.github.io/toolz/adblock' target='_blank'>D3ward</a></li>
         <li><a href='https://browserleaks.com/dns' target='_blank'>DNS Leak</a></li>
       </ul>
